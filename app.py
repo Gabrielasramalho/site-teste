@@ -11,7 +11,7 @@ menu = """
   menu:active {
     background-color: red;
   }
-
+</style>
 @app.route("/")
 def index():
   return menu + "Olá, mundo! Esse é meu site. (Gabriela Soares)"
