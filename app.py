@@ -3,5 +3,5 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-def hello_world():
-return "Olá, mundo! Esse é o meu site. (Gabriela Soares)"
+def index():
+  return "Olá, mundo! Esse é meu site. (Gabriela Soares)"
