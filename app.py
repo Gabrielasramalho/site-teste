@@ -7,6 +7,10 @@ menu = """
 <a href="/">Página inicial</a> | <a href="/sobre">Sobre</a> | <a href="/contato">Contato</a>
 <br>
 """
+<style>
+  button:active {
+    background-color: red;
+  }
 
 @app.route("/")
 def index():
