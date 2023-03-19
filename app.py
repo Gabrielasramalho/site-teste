@@ -6,11 +6,11 @@ app = Flask(__name__)
 def hell_world():
   return "Olá, mundo! Esse é meu site. (Gabriela Soares)"
   
-  @app.route("/")
+  @app.route("/sobre")
 def sobre():
   return "sobre"
   
-  @app.route("/")
+  @app.route("/contato")
 def contato():
   return "contato"
 
