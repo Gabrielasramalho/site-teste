@@ -7,11 +7,7 @@ menu = """
 <a href="/">Página inicial</a> | <a href="/sobre">Sobre</a> | <a href="/contato">Contato</a>
 <br>
 """
-<style>
-  menu:active {
-    background-color: red;
-  }
-</style>
+
 @app.route("/")
 def index():
   return menu + "Olá, mundo! Esse é meu site. (Gabriela Soares)"
