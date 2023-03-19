@@ -8,7 +8,7 @@ menu = """
 <br>
 """
 <style>
-  button:active {
+  menu:active {
     background-color: red;
   }
 
